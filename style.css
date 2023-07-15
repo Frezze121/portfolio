@@ -18,17 +18,30 @@ nav {
 }
 
 #home {
-  background-color: #7600bc;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -1cm;
+  background: rgba(255,255,255,0.2);
   padding-top: 33px;
   padding-bottom: 33px;
   height: 5mm;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+.topdiv a {
+border-radius: 25px;
+}
+
+.topdiv a:hover {
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  color: #1e1e1e;
 }
 
 .topmenu {
-  color: lightgray;
+  color: #ebeff5;
   margin: 10px;
   padding: 20px;
   font-size: 20px;
@@ -46,11 +59,26 @@ nav {
 }
 
 .profile_name {
+
   color: white;
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
 }
+
+.profile_name a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.profile_name h3 {
+  display: contents;
+}
+
+.contact_info h3 {
+  display: contents;
+}
+
 
 .profile_name .contact_info {
   font-size: 15px;
@@ -111,12 +139,43 @@ h2 {
 #about-me-image {
   width: 40%;
   z-index: 2;
+  animation: animate 5s linear infinite;
 }
+
+@keyframes animate {
+  0%,100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(50px);
+  }
+}
+
 
 #about-me-text {
   width: 60%;
   margin-left: 50px;
   z-index: 2;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,10%);
+  border-top: 1px solid rgba(255,255,255,30%);
+  border-left: 1px solid rgba(255,255,255,30%);
+  padding: 40px;
+  padding-top: 0;
+  background: rgba(255,255,255,6%);
+}
+
+.nav-icon {
+  margin-right: 50px;
+  display: none;
 }
 
 

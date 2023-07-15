@@ -1,0 +1,9 @@
+@media screen and (max-width: 1130px) {
+    .topdiv {
+        display: none;
+    }
+    .nav-icon{
+        float: right;
+        display: block;
+    }
+}
