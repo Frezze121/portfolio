@@ -27,5 +27,13 @@ function showPopup(bool) {
   }
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+  var links = document.querySelectorAll(".topmenu");
 
-
+  links.forEach(function (link) {
+    link.addEventListener("click", function () {
+      var checkbox = document.getElementById("active");
+      checkbox.checked = false;
+    });
+  });
+});

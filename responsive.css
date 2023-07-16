@@ -1,9 +1,52 @@
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1160px) {
     .topdiv {
         display: none;
     }
-    .nav-icon{
-        float: right;
+    .mobile-navbar{
         display: block;
     }
+}
+
+@media screen and (max-width: 1680px){
+    #about-me {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .first-cont {
+        display: grid;
+    }
+    #about-me-image {
+        margin-top: -50px;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        animation: animate 5s linear infinite;
+    }
+
+    @keyframes animate {
+        0%,100% {
+            transform: translateX(0px);
+        }
+        25% {
+            transform: translateX(-30px);
+        }
+        50% {
+            transform: translateX(0px);
+        }
+        75% {
+            transform: translateX(50px);
+        }
+    }
+
+    #about-me-text {
+        text-align: center;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+
+
 }
