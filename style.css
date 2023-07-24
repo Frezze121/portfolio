@@ -1,6 +1,7 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   cursor: url("cursor/d4-normal-select.cur"),default;
+  margin: 0;
 }
 
 section {
@@ -12,6 +13,9 @@ section {
 /* Navigation Bar */
 
 nav {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   z-index: 10;
   position: sticky;
   top: 0;
@@ -118,25 +122,35 @@ h2 {
   position: relative;
 }
 
+.videos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
 /* Used in the About Me sections */
+
+.first-content {
+  background-size: cover;
+  position: relative;
+  top: 0;
+  margin-top: -165px;
+  padding-bottom: 165px;
+}
 
 .container {
   display: flex;
 }
 
 /* About Me */
-
 #about-me {
-  z-index: 2;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 135px;
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 #about-me-image {
+  margin-top: 140px;
+  margin-left: -180px;
   width: 40%;
   z-index: 2;
   animation: animate 5s linear infinite;
@@ -157,12 +171,19 @@ h2 {
   }
 }
 .first-cont {
+  z-index: 2;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 135px;
   display: flex;
+  align-items: center;
 }
 
 #about-me-text {
+  margin-top: 140px;
   width: 60%;
-  margin-left: 100px;
+  margin-left: 180px;
   z-index: 2;
   box-shadow: 0 15px 30px rgba(0,0,0,0.05);
   border-radius: 20px;
@@ -180,15 +201,10 @@ h2 {
   display: none;
 }
 
-
-#skills {
-  margin-top: 240px;
-}
-
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #f2e1fb;
+  color: #e1effb;
 }
 
 #about-me p {
@@ -208,10 +224,14 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  margin-top: 80px;
+  width: 90%;
 }
 
 .skill {
-  border: 1px solid gray;
+  backdrop-filter: blur(100px);
+  background: #000000a1;
+  border: 1px solid #1f082b59;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -219,7 +239,8 @@ h2 {
   padding: 10px;
   width: 2in;
   font-size: 20px;
-  box-shadow: 0 3px 10px gray;
+  box-shadow: 6px 12px 20px 0px #4d389f5c;
+  color: #e9ffff;
 }
 
 .skill img {
@@ -588,4 +609,48 @@ input[type="checkbox"]{
 
 .mobile-navbar {
   display: none;
+}
+
+.skills-div-bg {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  float: right;
+  background-image: url("images/12.png");
+}
+
+#skills-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  width: 90%;
+}
+
+.skills-second-div-bg{
+  width: 50%;
+  background: linear-gradient(151deg, #583081, #148383);
+}
+
+#skills-image {
+  position: absolute;
+  margin-top: 100px;
+  height: 600px;
+}
+#skills {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.skill-class{
+  display: flex;
+  flex-direction: row;
+}
+
+#skill-h2 {
+  background-image: linear-gradient(to left,#b2e0b4,#f5effc);
+  color: transparent;
+  font-size: 80px;
+  -webkit-background-clip: text;
+  margin-top: -47px;
 }

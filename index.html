@@ -3,7 +3,6 @@
   <head>
     <title>Jane Doe - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
-    <link rel="stylesheet" href="animated-background.css"/>
     <link rel="stylesheet" href="responsive.css"/>
     <script src="./script.js"></script>
   </head>
@@ -49,38 +48,18 @@
     </nav>
 
     <!-- About Me -->
+    <div class="first-content">
+      <video class="videos" aria-hidden="true" muted autoplay loop playsinline>
+        <source src="images/1.mp4">
+      </video>
+      <section id="about-me" class="container">
 
-    <section id="about-me" class="container">
+        <div class="first-cont">
+          <div id="about-me-image">
+            <img src="images/Frezze_Isakov.png" class="profile_image" alt="me"/>
+          </div>
 
-      <div class="background">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
-      <div class="first-cont">
-        <div id="about-me-image">
-          <img src="images/Frezze_Isakov.png" class="profile_image" alt="me"/>
-        </div>
-
-        <div id="about-me-text">
+          <div id="about-me-text">
             <h1>
               Hi, I'm Ilia Isakov!
             </h1>
@@ -89,70 +68,92 @@
               I have worked on websites and microservices deployed on Silverkonik.
               I am a designer and content creator at Astro Studios and work with my team to create code sections, textures and plans.
             </p>
+          </div>
         </div>
-      </div>
 
 
 
-    </section>
+      </section>
+    </div>
+
               
     <!-- Skills -->
     <section id="skills">
-      <h2>Skills</h2>
-      <div style="clear:both;"></div>
-
-
-      <div class="all_skills">
-        <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
-          <h6>HTML</h6>
-          <p>3 years experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
-          <h6>JavaScript</h6>
-          <p>2 years experience</p>
+      <div class="skills-div-bg">
+        <div id="skills-div">
+          <h2 id="skill-h2">My skills</h2>
+          <img src="images/man.webp" id="skills-image">
         </div>
+    </div>
+      <div class="skills-second-div-bg">
+        <div class="all_skills">
 
-        <div class="skill">
-          <img src="images/CSS-Logo.png"/>
-          <h6>CSS</h6>
-          <p>3 years experience</p>
+          <div class="skill-class">
+            <div class="skill">
+              <img src="html_finalprojimages/html5.png"/>
+              <h6>HTML</h6>
+              <p>3 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="html_finalprojimages/js.jpeg"/>
+              <h6>JavaScript</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="images/CSS-Logo.png"/>
+              <h6>CSS</h6>
+              <p>3 years experience</p>
+            </div>
+          </div>
+
+          <div class="skill-class">
+            <div class="skill">
+              <img src="images/python.png"/>
+              <h6>Python</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="images/adobe.jpg"/>
+              <h6>Design & Adobe Software</h6>
+              <p>4 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="images/mysql.png"/>
+              <h6>Databases & Mysql</h6>
+              <p>1 years experience</p>
+            </div>
+          </div>
+
+          <div class="skill-class">
+            <div class="skill">
+              <img src="images/wordpress.png"/>
+              <h6>Wordpress</h6>
+              <p>2 years experience</p>
+            </div>
+
+            <div class="skill">
+              <img src="images/minecraft.png"/>
+              <h6>Minecraft</h6>
+              <p>5 years experience</p>
+            </div>
+          </div>
+
+
+
+
+
+          <!-- Add more skills here -->
+
+
         </div>
-
-        <div class="skill">
-          <img src="images/python.png"/>
-          <h6>Python</h6>
-          <p>2 years experience</p>
-        </div>
-
-        <div class="skill">
-          <img src="images/adobe.jpg"/>
-          <h6>Design & Adobe Software</h6>
-          <p>4 years experience</p>
-        </div>
-
-        <div class="skill">
-          <img src="images/mysql.png"/>
-          <h6>Databases & Mysql</h6>
-          <p>1 years experience</p>
-        </div>
-
-        <div class="skill">
-          <img src="images/wordpress.png"/>
-          <h6>Wordpress</h6>
-          <p>2 years experience</p>
-        </div>
-
-
-
-
-        <!-- Add more skills here -->
-
-
       </div>
     </section>
+
+
           
     <!-- Projects -->
     <section class="projects" id="projects">

@@ -1,3 +1,25 @@
+@media screen and (max-width: 1700px) {
+    #about-me {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1619px) {
+    #about-me-image {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1480px) {
+    #about-me {
+        width: 100%;
+    }
+    .first-cont {
+        width: 85%;
+    }
+}
+
+
 @media screen and (max-width: 1160px) {
     .topdiv {
         display: none;
@@ -7,18 +29,12 @@
     }
 }
 
-@media screen and (max-width: 1680px){
-    #about-me {
-        width: 90%;
-    }
-}
 
 @media screen and (max-width: 1200px){
     .first-cont {
         display: grid;
     }
     #about-me-image {
-        margin-top: -50px;
         width: 100%;
         display: grid;
         justify-content: center;
