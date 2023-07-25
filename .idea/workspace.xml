@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f2845a-4538-41db-8979-0e4f1557b4de" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/images/artist-palette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bg.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/css3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/db.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/html5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2SQNn7tZe1sChwpjaSr5kwOhRT0" />
   <component name="ProjectLevelVcsManager">
@@ -80,7 +81,8 @@
       <workItem from="1689493734439" duration="4653000" />
       <workItem from="1689511865304" duration="6856000" />
       <workItem from="1690196564323" duration="11445000" />
-      <workItem from="1690220494299" duration="8103000" />
+      <workItem from="1690220494299" duration="8167000" />
+      <workItem from="1690274991394" duration="9881000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -138,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690230043278</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1690230107101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690230107101</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
