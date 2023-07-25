@@ -1,5 +1,7 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: moniker, sans-serif;
+  font-style: normal;
+  font-weight: 200;
   cursor: url("cursor/d4-normal-select.cur"),default;
   margin: 0;
 }
@@ -228,10 +230,6 @@ h2 {
 
 /* Projects */
 
-.projects-container {
-  margin-top: 30px;
-  margin-left: 60px;
-}
 
 .projects-container hr {
   border: 1px solid lightgray;
@@ -650,7 +648,8 @@ input[type="checkbox"]{
   background-size: cover;
   width: 100%;
   height: 980px;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 #skills {
@@ -970,4 +969,118 @@ input[type="checkbox"]{
   width: 100%;
   position: absolute;
   z-index: 2;
+}
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  display: flex;
+  background-image: url("images/paper.webp");
+  background-size: cover;
+  width: 100%;
+}
+#quest-img {
+  position: absolute;
+  opacity: 0.9;
+}
+
+#bear-img{
+  position: absolute;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+#image-div{
+  display: flex;
+  align-items: end;
+}
+
+#contact-me{
+  background-image: url("images/contact-me.webp");
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+
+#contact-me h2{
+  background-image: linear-gradient(to left,#00d981,#1b22ff);
+  color: transparent;
+  font-size: 60px;
+  -webkit-background-clip: text;
+  float: none;
+  margin: 0;
+  padding-bottom: 45px;
+  margin-top: 80px;
+}
+
+#contact-form button{
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,10%);
+  border-top: 1px solid rgba(255,255,255,30%);
+  border-left: 1px solid rgba(255,255,255,30%);
+  background: linear-gradient(106deg, #4161719c, #51ab9261);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+  font-family: system-ui;
+  color: #ffffff;
+  font-weight: 480;
+  font-size: 21px;
+}
+
+#contact-form input, textarea{
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,10%);
+  border-top: 1px solid #00000066;
+  border-left: 1px solid #00000066;
+  background: rgb(255 255 255);
+}
+
+#contact-form textarea {
+  padding-bottom: 90px;
+}
+
+#contact-form button {
+  margin-top: 25px;
+}
+
+#project-h2{
+  background-image: linear-gradient(to left,#71108f,#951f7c);
+  color: transparent;
+  font-size: 60px;
+  -webkit-background-clip: text;
+  padding-bottom: 20px;
+}
+
+#contact-formular {
+  border-radius: 10px;
+  box-shadow: 11px 7px 11px 0px rgb(0 0 0 / 32%);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,10%);
+  border-top: 1px solid rgba(255,255,255,30%);
+  border-left: 1px solid rgba(255,255,255,30%);
+  background: rgb(135 135 135 / 28%);
+  height: 500px;
+  margin-top: 87px;
+  padding-bottom: 20px;
+  padding-right: 55px;
+  padding-left: 36px;
+  margin-bottom: 50px;
+}
+
+#foxy-img{
+  position: absolute;
+  right: 0;
+  margin-top: 131px;
+}
+
+#enot-img{
+  position: absolute;
+  left: 0;
+  margin-top: 157px;
+  height: 478px;
+  margin-left: 83px;
 }

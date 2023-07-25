@@ -88,8 +88,9 @@
         <button class="random-color" id="original" onclick="original_colors()">Back to<br>Original</button>
         <button class="random-color" id="confetti-btn" onclick="playconf()">Play<br>Confetti</button>
         <button class="random-color" id="custom-confetti-btn" onclick="customplayconf()">Custom<br>Confetti</button>
-
-        <video id="confetti-vid" src="images/conf.gif" loop></video>
+        
+        <img src="images/foxy.png" id="quest-img">
+        <img src="images/bear.png" id="bear-img">
 
 
         <div class="all_skills">
@@ -184,12 +185,12 @@
           
     <!-- Projects -->
     <section class="projects" id="projects">
-      <h2>
-        Projects
-      </h2>
-      <div style="clear:both;"></div>
+
+
 
         <div id="projects-container" class="projects-container">
+          <h2 id="project-h2">Projects</h2>
+          <div style="clear:both;"></div>
           <div class="project-card">
             <h3>E-Commerce Wordpress Website</h3>
             <ul>
@@ -210,50 +211,38 @@
               <li>Created a team and plans as well as structures to turn our passion into a career. I applied marketing strategies and worked with Adobe software to create trailers. However, I have worked with 3D software such as Maya Autodesk and Blockbench.</li>
             </ul>
           </div>
-    </div>
+        </div>
+
+      <div id="image-div">
+        <img src="images/fox.png" id="fox-img">
+      </div>
+
     </section>
     <div style="clear:both;"></div>
 
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Ilia is a very fast learner and rapidly grasps key concepts of web development.
-          He has a great work ethic & he is an excellent team player.
-          He has a curious mind and asks the right questions.
-          He takes initiative within a team and has the potential to lead the team.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Working with Ilia was a great experience, he is very knowledgeable and always goes the extra mile to make sure everything is right.
-          For any future projects that require their expertise, I would definitely want to work with him again.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          I had worked with Ilia during the initial phase of our venture which required web development.
-          He is a dedicated resource who has in depth knowledge of the domain. he will be an asset to any organization!
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
 
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
+    <section id="contact-me">
+
+      <div id="contact-formular">
+        <h2>Contact me</h2>
+        <div style="clear:both;"></div>
+        <form action="https://formspree.io/f/xeqnvlyp" method="POST" id="contact-form">
+          <label>
+            Your email:
+            <input type="email" name="email">
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit" onclick="addRecommendation()">Send</button>
+        </form>
       </div>
+
+      <img src="images/fox-img.png" id="foxy-img">
+      <img src="images/enot.png" id="enot-img">
+
     </section>
 
     <div class="iconbutton">

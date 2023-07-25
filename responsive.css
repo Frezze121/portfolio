@@ -63,6 +63,22 @@
         margin-left: auto;
         width: 80%;
     }
+}
 
+@media screen and (max-width: 1749px) {
+    #quest-img{
+        display: none;
+    }
+    #bear-img{
+        display: none;
+    }
+}
 
+@media screen and (max-width: 1749px) {
+    #foxy-img{
+        display: none;
+    }
+    #enot-img{
+        display: none;
+    }
 }
