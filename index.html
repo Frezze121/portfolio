@@ -1,236 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Ilia Isakov - Portfolio</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <link rel="stylesheet" href="responsive.css"/>
-    <script src="./script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-  </head>
-  <body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <title>Ilia Isakov - Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="Frezze_Isakov.ico">
 
-    <!-- Navigation Bar -->
-    <nav>
-      <div id="home">
-        <div class="profile_name">
-          <h3>Ilia Isakov</h3>
-          <div class="contact_info">
-            <a href="mailto:frezze334@gmail.com">
-              <img src="images/email.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-              <h3>frezze334@gmail.com</h3>
-            </a>
-        </div>
-        <div style="clear:both;"></div>
-        </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
+  <meta name="description" content="Check out the impressive portfolio page of Ilia Isakov - web developer, minecrtaft Creator and designer. I present my projects and skills. 🚀">
+  <meta property="og:image" content="images/Frezze_Isakov.png">
 
-        </div>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <script src="./script.js"></script>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav>
+  <div id="home">
+    <div class="profile_name">
+      <h3>Ilia Isakov</h3>
+      <div class="contact_info">
+        <a href="mailto:frezze334@gmail.com">
+          <img src="images/email.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+          <h3>frezze334@gmail.com</h3>
+        </a>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+    <div class="topdiv">
+      <a class="topmenu" href="#about-me">About Me</a>
+      <a class="topmenu" href="#skills">Skills</a>
+      <a class="topmenu" href="#projects">Projects</a>
+      <a class="topmenu" href="#contact-me">Contact me</a>
+      <!-- Add the links for Skills, Projects and Recommendation here -->
+    </div>
+  </div>
 
+  <div class="mobile-navbar">
+    <input type="checkbox" id="active" />
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a class="topmenu" href="#about-me"><nobr>About Me</nobr></a>
+        </li>
+        <li><a class="topmenu" href="#skills">Skills</a></li>
+        <li><a class="topmenu" href="#projects">Projects</a></li>
+        <li><a class="topmenu" href="#contact-me"><nobr>Contact me</nobr></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Me -->
+<div class="first-content">
+  <video class="videos" aria-hidden="true" muted autoplay loop playsinline>
+    <source src="images/bg.mp4" />
+  </video>
+  <section id="about-me" class="container">
+    <div class="first-cont">
+      <div id="about-me-image">
+        <img src="images/Frezze_Isakov.png" class="profile_image" alt="me" />
       </div>
 
-      <div class="mobile-navbar">
-        <input type="checkbox" id="active">
-        <label for="active" class="menu-btn"><span></span></label>
-        <label for="active" class="close"></label>
-        <div class="wrapper">
-          <ul>
-            <li><a class="topmenu" href="#about-me"><nobr>About Me</nobr></a></li>
-            <li><a class="topmenu" href="#skills">Skills</a></li>
-            <li><a class="topmenu" href="#projects">Projects</a></li>
-            <li><a class="topmenu" href="#recommendations">Recommendations</a></li>
-          </ul>
+      <div id="about-me-text">
+        <h1>
+          Hi, I'm Ilia Isakov!
+        </h1>
+        <p>
+          I am a freelancer with 2+ years of experience in application and presentation layers. I have worked on websites and microservices deployed on Silverkonik. I am a designer and content creator at Astro Studios and
+          work with my team to create code sections, textures and plans.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="skills-second-div-bg">
+    <h2 id="skill-h2"><span id="skills-my" class="text-my">My</span><span id="text-color">Skills</span></h2>
+
+    <div class="skill-divs">
+      <div class="inner-div-skills">
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">HTML</h4>
+              <p class="p _60-opacity">Design website structure and format content.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">CSS</h4>
+              <p class="p _60-opacity">Design rich creative websites and improve user experiences.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Javascript</h4>
+              <p class="p _60-opacity">Develop & Design interactive websites and optimize user experience.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Git & Github</h4>
+              <p class="p _60-opacity">Efficient versioning and collaborative work with Git & GitHub.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Python</h4>
+              <p class="p _60-opacity">Master versatile programming and automation with Python.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Databases</h4>
+              <p class="p _60-opacity">Master more efficient data management and database system design.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Wordpress</h4>
+              <p class="p _60-opacity">Create and customize professional websites with Wordpress.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Design & Adobe</h4>
+              <p class="p _60-opacity">Manage creativity and design with Adobe tools.</p>
+            </div>
+          </a>
+        </div>
+
+        <div role="listitem" class="box w-dyn-item">
+          <a class="skill-a">
+            <div class="div-block">
+              <h4 class="h4-skill">Minecraft</h4>
+              <p class="p _60-opacity">Creative building in team and adventure experience in Minecraft.</p>
+            </div>
+          </a>
         </div>
       </div>
-    </nav>
-
-    <!-- About Me -->
-    <div class="first-content">
-      <video class="videos" aria-hidden="true" muted autoplay loop playsinline>
-        <source src="images/bg.mp4">
-      </video>
-      <section id="about-me" class="container">
-
-        <div class="first-cont">
-          <div id="about-me-image">
-            <img src="images/Frezze_Isakov.png" class="profile_image" alt="me"/>
-          </div>
-
-          <div id="about-me-text">
-            <h1>
-              Hi, I'm Ilia Isakov!
-            </h1>
-            <p>
-              I am a freelancer with 2+ years of experience in application and presentation layers.
-              I have worked on websites and microservices deployed on Silverkonik.
-              I am a designer and content creator at Astro Studios and work with my team to create code sections, textures and plans.
-            </p>
-          </div>
-        </div>
-
-
-
-      </section>
     </div>
 
-              
-    <!-- Skills -->
-    <section id="skills">
+    <!--
+<button class="random-color" id="confetti-btn" onclick="playconf()">Play<br>Confetti</button>
+<button class="random-color" id="custom-confetti-btn" onclick="customplayconf()">Custom<br>Confetti</button>!-->
+  </div>
+</section>
 
+<!-- Projects -->
+<section class="projects" id="projects">
+  <div class="projetcs-divs">
 
-      <div class="skills-second-div-bg" >
-        <button class="random-color" id="randomizer" onclick="randomcolor()">Randomize<br> colors</button>
-        <button class="random-color" id="original" onclick="original_colors()">Back to<br>Original</button>
-        <button class="random-color" id="confetti-btn" onclick="playconf()">Play<br>Confetti</button>
-        <button class="random-color" id="custom-confetti-btn" onclick="customplayconf()">Custom<br>Confetti</button>
-        
-        <img src="images/foxy.png" id="quest-img">
-        <img src="images/bear.png" id="bear-img">
-
-
-        <div class="all_skills">
-          <h2 id="skill-h2">My</h2>
-          <h2 id="skill2-h2">Skills</h2>
-          <img src="images/tank.png" id="img-tank">
-
-
-            <div class="skill" id="skill-html">
-              <img src="images/html5.png"/>
-              <h6>HTML</h6>
-              <p>3 years experience</p>
-            </div>
-
-            <div class="skill" id="skill-js">
-              <img src="images/js.png"/>
-              <h6>JavaScript</h6>
-              <p>2 years experience</p>
-            </div>
-          <div id="js-line" class="line"></div>
-
-            <div class="skill" id="skill-css">
-              <img src="images/css3.png"/>
-              <h6>CSS</h6>
-              <p>3 years experience</p>
-            </div>
-          <div id="css-line" class="line"></div>
-
-            <div class="skill" id=skill-python>
-              <img src="images/python.png"/>
-              <h6>Python</h6>
-              <p>2 years experience</p>
-            </div>
-          <div id="python-line" class="line"></div>
-
-            <div class="skill" id="skill-adobe">
-              <img src="images/artist-palette.png"/>
-              <h6>Design & Adobe</h6>
-              <p>4 years experience</p>
-            </div>
-
-            <div class="skill" id="skill-mysql">
-              <img src="images/db.png"/>
-              <h6>Databases & Mysql</h6>
-              <p>1 years experience</p>
-            </div>
-          <div id="db-line" class="line"></div>
-
-            <div class="skill" id="skill-wordpress">
-              <img src="images/wordpress.png"/>
-              <h6>Wordpress</h6>
-              <p>2 years experience</p>
-            </div>
-          <div id="wordpress-line" class="line"></div>
-
-            <div class="skill" id="skill-mc">
-              <img src="images/minecraft.png"/>
-              <h6>Minecraft</h6>
-              <p>5 years experience</p>
-            </div>
-          <div id="mc-line" class="line"></div>
-
-          <div class="skill" id="skill-test1">
-          </div>
-          <div class="skill" id="skill-test2">
-          </div>
-          <div class="skill" id="skill-test3">
-          </div>
-          <div class="skill" id="skill-test4">
-          </div>
-          <div class="skill" id="skill-test6">
-          </div>
-          <div class="skill" id="skill-test7">
-          </div>
-          <div class="skill" id="skill-test8">
-          </div>
-          <div class="skill" id="skill-test9">
-          </div>
-
-
-
-
-
-          <!-- Add more skills here -->
-
-
-        </div>
+    <div id="projects-container" class="projects-container">
+      <h2 id="h2-titles" ><span class="text-my">My</span> <span id="project-h2">Projects</span></h2>
+      <div style="clear: both;"></div>
+      <div class="project-card">
+        <h3>E-Commerce Wordpress Website</h3>
+        <ul>
+          <li>Developed a full secure website with woocommerce intergations that accepts cards and bank payments. Over 400 products with high SEO ranking. <a href="https://www.silverkonik.com/">Silverkonik</a></li>
+        </ul>
       </div>
-    </section>
-
-
-          
-    <!-- Projects -->
-    <section class="projects" id="projects">
-
-
-
-        <div id="projects-container" class="projects-container">
-          <h2 id="project-h2">Projects</h2>
-          <div style="clear:both;"></div>
-          <div class="project-card">
-            <h3>E-Commerce Wordpress Website</h3>
-            <ul>
-              <li>Developed a full secure website with woocommerce intergations that accepts cards and bank payments. Over 400 products with high SEO ranking. <a href="https://www.silverkonik.com/">Silverkonik</a></li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Community Website</h3>
-            <ul>
-              <li>Programmed several landing pages and mass tables with special effects as well as email contact forms using HTML, CSS and Javascript. <a href="https://shytz.net/">Shytz</a></li>
-            </ul>
-          </div>
-          <hr>
-          <div class="project-card">
-            <h3>Minecraft Creator Hub</h3>
-            <ul>
-              <li>Created a team and plans as well as structures to turn our passion into a career. I applied marketing strategies and worked with Adobe software to create trailers. However, I have worked with 3D software such as Maya Autodesk and Blockbench.</li>
-            </ul>
-          </div>
-        </div>
-
-      <div id="image-div">
-        <img src="images/fox.png" id="fox-img">
+      <hr />
+      <div class="project-card">
+        <h3>Community Website</h3>
+        <ul>
+          <li>Programmed several landing pages and mass tables with special effects as well as email contact forms using HTML, CSS and Javascript. <a href="https://shytz.net/">Shytz</a></li>
+        </ul>
       </div>
+      <hr />
+      <div class="project-card">
+        <h3>Minecraft Creator Hub</h3>
+        <ul>
+          <li>
+            Created a team and plans as well as structures to turn our passion into a career. I applied marketing strategies and worked with Adobe software to create trailers. However, I have worked with 3D software such as
+            Maya Autodesk and Blockbench.
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    </section>
-    <div style="clear:both;"></div>
+    <div id="image-div">
+      <img src="images/fox.png" id="fox-img" />
+    </div>
+  </div>
 
 
-    <section id="contact-me">
+</section>
+<div style="clear: both;"></div>
 
+<section id="contact-me">
+  <div id="contact-divs">
+    <div id="contact-div">
       <div id="contact-formular">
         <h2>Contact me</h2>
-        <div style="clear:both;"></div>
+        <div style="clear: both;"></div>
         <form action="https://formspree.io/f/xeqnvlyp" method="POST" id="contact-form">
           <label>
-            Your email:
-            <input type="email" name="email" required>
+            Your name:
+            <input name="name" required />
           </label>
+          <label>
+            Your email:
+            <input type="email" name="email" required />
+          </label>
+
           <label>
             Your message:
             <textarea name="message" required></textarea>
@@ -238,26 +237,45 @@
           <!-- your other form fields go here -->
           <button type="submit" onclick="addRecommendation()">Send</button>
         </form>
+
+        <div id="social-media-icons-mobile">
+          <a href="https://www.linkedin.com/in/ilia-isakov/"><img src="images/linkeln.png" /></a>
+          <a href="https://t.me/Frezze121"><img src="images/telegram.png" /></a>
+          <a href="https://discord.gg/nD8rq8ej59"><img src="images/discord.png" /></a>
+          <a href="https://api.whatsapp.com/send?phone=491778453724"><img src="images/whatsapp.png" /></a>
+          <a href="https://www.facebook.com/isakov.ilia/"><img src="images/meta.png" /></a>
+        </div>
       </div>
-
-      <img src="images/fox-img.png" id="foxy-img">
-      <img src="images/enot.png" id="enot-img">
-
-    </section>
-
-    <div class="iconbutton">
-      <a href="#about-me">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <!--Add the code here for the logo to appear and the icon to be actionable-->
-      </a>
     </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3>Thanks for leaving a recommendation!</h3>
-      <button onclick="showPopup(false)">Ok</button>
+    <div id="contact-div2">
+      <img src="images/mail.png" id="email-img" />
+
+      <h4 id="social-media-h4">My Social media</h4>
+      <div id="social-media-icons">
+        <a href="https://www.linkedin.com/in/ilia-isakov/"><img src="images/linkeln.png" /></a>
+        <a href="https://t.me/Frezze121"><img src="images/telegram.png" /></a>
+        <a href="https://discord.gg/nD8rq8ej59"><img src="images/discord.png" /></a>
+        <a href="https://api.whatsapp.com/send?phone=491778453724"><img src="images/whatsapp.png" /></a>
+        <a href="https://www.facebook.com/isakov.ilia/"><img src="images/meta.png" /></a>
+      </div>
     </div>
-  </body>
+  </div>
+</section>
+
+<div class="iconbutton">
+  <a href="#about-me">
+    <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="63px" viewBox="0 0 24 24" fill="none">
+      <path d="M17 15L12 10L7 15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <!--Add the code here for the logo to appear and the icon to be actionable-->
+  </a>
+</div>
+
+<div class="popup" id="popup" class="flex_center">
+  <img src="html_finalprojimages/checkmark--outline.svg" />
+  <h3>Thanks for leaving a recommendation!</h3>
+  <button onclick="showPopup(false)">Ok</button>
+</div>
+</body>
 </html>
