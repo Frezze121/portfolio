@@ -7,14 +7,11 @@
         border-radius: 52px;
         background: rgb(255 255 255);
         height: 84%;
-        margin-top: 87px;
+        margin: 87px auto 50px auto;
         padding-bottom: 20px;
         padding-right: 55px;
         padding-left: 36px;
         width: 55%;
-        margin-bottom: 50px;
-        margin-right: auto;
-        margin-left: auto;
     }
     #contact-div {
         width: unset;
@@ -145,15 +142,29 @@
 @media screen and (max-width: 990px) {
     #skill-h2 {
         margin-left: 0;
+        margin-top: 75px;
+    }
+    #projects-container{
+        display: grid;
+    }
+    #h2-titles{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     #text-color {
         font-size: 56px;
         line-height: 90%;
     }
+    .project-card{
+        margin: 0;
+    }
 
     .text-my {
         font-size: 56px;
         line-height: 90%;
+        padding-right: 10px;
     }
     #project-h2{
         font-size: 56px;
@@ -167,8 +178,8 @@
     }
 
     .inner-div-skills {
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-column-gap: 0;
+        grid-row-gap: 0;
         border-radius: 0;
         flex-direction: column;
         grid-template-rows: auto;

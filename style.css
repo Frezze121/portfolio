@@ -191,8 +191,7 @@ h2 {
   border: 1px solid rgba(255, 255, 255, 10%);
   border-top: 1px solid rgba(255, 255, 255, 30%);
   border-left: 1px solid rgba(255, 255, 255, 30%);
-  padding: 40px;
-  padding-top: 0;
+  padding: 0 40px 40px 40px;
   background: rgb(151 151 151 / 15%);
 }
 
@@ -319,11 +318,10 @@ h2 {
   display: block;
   border-radius: 6px;
   text-align: center;
-  margin: 50px;
+  margin: 50px 50px 50px 25%;
   padding: 10px;
   width: 2in;
   font-size: 20px;
-  margin-left: 25%;
 }
 
 .popup button:hover {
@@ -496,7 +494,6 @@ button:hover {
   margin: 5px 30px;
   opacity: 0;
   transition: all 0.3s ease;
-  transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .wrapper ul li a:after {
   position: absolute;
@@ -548,7 +545,6 @@ input[type="checkbox"] {
   transform: translateX(100px);
 }
 #active:checked ~ .wrapper ul li a {
-  transform: none;
   transition-timing-function: ease, cubic-bezier(0.1, 1.3, 0.3, 1); /* easeOutBack*/
   transition-delay: 0.6s;
   transform: translateX(-100px);
@@ -643,9 +639,8 @@ input[type="checkbox"] {
   font-size: 60px;
   -webkit-background-clip: text;
   float: left;
-  margin: 0;
+  margin: 80px 0 0 0;
   padding-bottom: 45px;
-  margin-top: 80px;
 }
 
 #contact-form button {
@@ -705,13 +700,10 @@ textarea {
   border-radius: 52px;
   background: rgb(255 255 255);
   height: 638px;
-  margin-top: 87px;
+  margin: 87px 50px 50px 50px;
   padding-bottom: 20px;
   padding-right: 55px;
   padding-left: 36px;
-  margin-bottom: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
 }
 
 #email-img {
@@ -811,7 +803,7 @@ textarea {
   font-style: normal;
   font-weight: 700;
   filter: saturate(90%);
-  background-image: url(images/AdobeStock_267402109.jpeg);
+  background-image: url(images/gradient.png);
   background-position: 50%;
   background-size: cover;
   -webkit-text-fill-color: transparent;
