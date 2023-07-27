@@ -54,6 +54,10 @@ nav {
   text-decoration: none;
 }
 
+#text-projetcs-my{
+  padding-right: 0;
+}
+
 .topmenu:hover {
   color: white;
   /* Add the styles here */
@@ -471,6 +475,7 @@ button:hover {
   border-color: #fff;
 }
 .wrapper ul {
+  padding-left: 0;
   position: absolute;
   top: 60%;
   left: 50%;
