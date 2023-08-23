@@ -178,7 +178,12 @@
 }
 
 @media screen and (max-width: 990px) {
-
+    .carousel{
+        width: 95%;
+    }
+    .text-color{
+        font-size: 56px;
+    }
     #skill-h2 {
         margin-left: 0;
         margin-top: 75px;
